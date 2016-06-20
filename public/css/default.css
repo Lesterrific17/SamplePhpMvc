@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+}
+
+#header{
+    background-color: #2574A9;
+    border-bottom: 1px solid rgb(220, 220, 220);
+   /* position: fixed;
+    top: 0px; */
+    height: 70px;
+    width: 100%;
+}
+#content{
+    min-height: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+}
+#footer{
+    background-color: rgb(240,240, 240);
+    height: 300px;
+}
+.error{
+    color: indianred;
+}
+input{
+    height: 35px;
+    width: 200px;
+    border: 1px solid rgb(200, 200, 200);
+}
+input[type='submit']{
+    height: 39px;
+}
+.row-list{
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+}
+.even-row{
+    background-color: rgb(240, 240, 240);
+}
+.list-column{
+    float: left;
+}
+.mrgl-20{
+    margin-left: 20px;
+}
+.list-column-action{
+    float: right;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.list-column-action{
+    color: white;
+    font-size: 12px;
+    padding: 8px 15px 8px 15px;
+}
+.delete{
+    background-color: indianred;
+}
+.edit{
+    background-color: seagreen;
+}
+select{
+    height: 39px;
+    width: 200px;
+    border: 1px solid rgb(200, 200, 200);
+}
+hr{
+    background-color: rgb(230, 230, 230);
+}
+.header-link{
+    float: left;
+    padding: 10px 15px 10px 15px;
+    margin: 15px 10px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: white;
+}
+.header-link:hover{
+    background-color: white;
+    color: #2574A9;
+}
+a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
